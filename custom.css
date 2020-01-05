@@ -115,7 +115,8 @@ body{
     margin-left: 0;
     width: 70px;
 }
-.overlay-right .fa{
+.overlay-right .fas
+{
     cursor: pointer;
     background-color: #fff;
     color: #000;
@@ -126,13 +127,27 @@ body{
     margin-top: 5%;
     margin-bottom: 5%;
 }
-.overlay-right .btn-secondary{
+.btn-secondary{
     background: none !important;
     border: none !important;
     box-shadow: none !important;
 }
-.product-top:hover ,overlay-right{
+.product-top:hover .overlay-right
+{
     opacity: 1;
     margin-left: 5%;
     transition: 0.5s;
+}
+/*--------------------------------------------product-bottom-----------------------------------------------*/
+.product-bottom .fas{
+    color: orange;
+    font-size: 10px;
+}
+.product-bottom h4{
+    font-size: 20px;
+    font-weight: bold;
+}
+.product-bottom h5{
+    font-size: 15px;
+    padding-bottom: 10px;
 }
